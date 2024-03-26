@@ -1,9 +1,42 @@
-version
-1: make a simple titactoe game, that displays in the console, and has two players
-1.00: player 1 starts the game
-1.01: from a random selection a player is choose to start the game
+# Tic Tac Toe Game
 
-Learning about
+This repository contains the first version of a simple Tic Tac Toe game implemented in Python.
 
-print()
-input()
+## Description
+
+This version of the game is a basic implementation designed to run in the console. Players take turns marking spaces in a 3x3 grid, aiming to be the first to achieve a line of their symbol (either 'X' or 'O') horizontally, vertically, or diagonally.
+
+## Features
+
+- Simple console-based gameplay.
+- Two players can take turns.
+- Basic win and draw detection.
+
+## Requirements
+
+- Python 3.x
+
+## Usage
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run the game.
+```
+    python tictactoe.py 
+```
+
+
+4. Follow the on-screen instructions to play the game.
+
+## How to Play
+
+- Players take turns inputting the row and column of the cell they wish to mark.
+- The game ends when one player achieves a line of their symbol or when the board is full.
+
+## Credits
+
+This game was created by me.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
